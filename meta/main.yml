@@ -3,11 +3,11 @@ galaxy_info:
   description: Certbot nginx installation
   company: Rod Morison Software
   license: Apache
-  min_ansible_version: 2.0
+  min_ansible_version: 2.4
   platforms:
   - name: Ubuntu
     versions:
-    - Xenial
+    - xenial
   galaxy_tags:
     - certbot
     - nginx
