@@ -1,5 +1,6 @@
 ---
 
 - import_tasks: build.yml
+  when: nginx_use_letsencrypt|bool == true
   become: yes
   tags: [certbot, build]
